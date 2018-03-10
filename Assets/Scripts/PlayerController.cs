@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
             nextFire = Time.time + atackSpeed;
 
             GameObject clone = Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+            GetComponent<AudioSource>().Play();
 
 
             if (clone.gameObject.tag == "Bolt")

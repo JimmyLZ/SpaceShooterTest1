@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceShooterTest1", "SpaceShooterTest1.csproj", "{DCF73241-30BC-F0B5-F826-A9A99333E171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceShooterTest1.Editor", "SpaceShooterTest1.Editor.csproj", "{06F2035C-7190-B776-524E-7D41B651CAFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCF73241-30BC-F0B5-F826-A9A99333E171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF73241-30BC-F0B5-F826-A9A99333E171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF73241-30BC-F0B5-F826-A9A99333E171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF73241-30BC-F0B5-F826-A9A99333E171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F2035C-7190-B776-524E-7D41B651CAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F2035C-7190-B776-524E-7D41B651CAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F2035C-7190-B776-524E-7D41B651CAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F2035C-7190-B776-524E-7D41B651CAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
