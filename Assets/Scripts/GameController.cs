@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
-    public GameObject hazard;
+    public GameObject[] hazards;
     public Vector3 spawnValues;
     public int hazardCount = 10;
-    public List<GameObject> hazards = new List<GameObject>();
     public float spawnWait;
     public float startWait;
     public  TextMesh scoreText;
@@ -58,9 +57,10 @@ public class GameController : MonoBehaviour {
         {
             for (int i = 0; i < hazardCount; i++)
             {
+                GameObject hazard = hazards[Random.Range(0, hazards.Length)];
                 Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
                 Quaternion spawnRotation = Quaternion.identity;
-                hazards.Add(Instantiate(hazard, spawnPosition, spawnRotation));
+                Instantiate(hazard, spawnPosition, spawnRotation);
                 
                 yield return new WaitForSeconds(spawnWait);
             }
