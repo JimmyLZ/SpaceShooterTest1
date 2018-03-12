@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     public float atackSpeed= 0.5f;
     private float nextFire = 0.0f;
-    Vector3 previousVerticalPosition = new Vector3(0.0f, 0.0f, 0.0f);
+
 
      void Update()
     {

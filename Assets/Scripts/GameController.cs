@@ -63,7 +63,7 @@ public class GameController : MonoBehaviour {
                 Instantiate(hazard, spawnPosition, spawnRotation);
                 
                 yield return new WaitForSeconds(spawnWait);
-            }
+            } 
             yield return new WaitForSeconds(waveWait);
 
             if (gameOver)
